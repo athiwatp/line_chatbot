@@ -1,21 +1,31 @@
 # LINE Chatbot based on Watson conversation API
 
 
-
 # Prerequisite cloud service
 You should get the accounts from those cloud services.
 
 
 ## IBM Watson Conversation
+
 Please refer this URL (https://www.ibm.com/watson/developercloud/conversation.html?cm_mc_uid=74122503855814660919737&cm_mc_sid_50200000=1471361662) to get Watson conversation API user id via IBM Bluemix cloud service.
 
+
 ## LINE Messaging API
+
 Please refer this URL (https://business.line.me/services/bot) to get LINE Messaging account.
 
+
 ## The Digital Certificates 
-you should get the digital certificates you need in order to enable HTTPS (SSL/TLS) 
+
+You should get the digital certificates you need in order to enable HTTPS (SSL/TLS) 
 please refer this URL (https://letsencrypt.org/) to get free the digital certificates
 
+
+## Runtime environment for Node
+
+The runtime environment must be able to communicate with the Watson service endpoint. My recommended environment is Virtual Server in Bluemix Infrastructure (EX SoftLayer). the minimum resource is a CPU 1 core and RAM 1 Gbyte.
+
+Tested Node version is v4.4.7. the "ndenv" environment is better than OS bundled Node due to choose Node version easy by any folder. Any OS is OK if it can run ndenv.
 
 
 # Install prerequisite package
