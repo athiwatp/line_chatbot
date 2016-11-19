@@ -52,7 +52,7 @@ In "conversation_credentials.json.sample" file, "username" and "password" are th
 
 "workspace_id" is from Watson Conversation tool. you can get this value from the "view details" in the Workspace of tool web page.
 
-
+After order Watson conversation API service, please click "Launch tool" icon. In the next web page, at Import a workspace, you should choose  "schema_conversation/basic_conv1.json".
 
 
 
