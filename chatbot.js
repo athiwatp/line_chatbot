@@ -1,11 +1,15 @@
 #!/usr/bin/env node
 //
-// LINEからの日本語テキストのメッセージを受けて、
-// Watson Conversationで応答するチャットボット
+// LINE Chatbot based on IBM Watson conversation
 //
-// 作者 Maho Takara    takara@jp.ibm.com
+//   if this code receive a message from LINE, it 
+//   re-send to Watson conversation service and get 
+//   the response. and then it reply to LINE user.
 //
-// 2016/11/19  初版
+//
+// Author : Maho Takara  takara@jp.ibm.com
+//
+// 2016/11/19  Initial commit
 //
 
 var fs = require('fs');
