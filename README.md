@@ -21,15 +21,49 @@ $ npm install fs async line-msg-api watson-developer-cloud
 ~~~
 
 
-# How to configure this code
+# How to configure Chatbot
 
 The configuration files are in the etc folder. you should edit the files following guide.
 
 * line_api_credential.json.sample
 * encript_fullchain.crt.sample
-* encript.ley.sample
+* encript.key.sample
 * conversation_credentials.json.sample
 * conversation_workspace_id.json.sample
+
+## line_api_credential.json
+
+"line_api_credential.json.sample" should be changed the file name to "line_api_credential.json". In this JSON file, "accessToken" and "channelSecret" are from LINE Developer Web page. In "server" section, "key" and "cert" are the file name that is the digital certificates. 
+
+"port" in "server" section should be same port number in Webhook URL on LINE Developer Web page.
+
+
+## encript_fullchain.crt and encript.key
+
+You should remove ".sample" and but these file is a fake. you can get these file from Let's Encrypt (https://letsencrypt.org/).
+
+
+## conversation_credentials.json
+
+In "conversation_credentials.json.sample" file, "username" and "password" are the credentials of IBM Watson conversation in IBM Bluemix. the values of "verstion" and "version_date" should not be changed. ".sample" in the file name should be removed.
+
+
+## conversation_workspace_id.json
+
+"workspace_id" is from Watson Conversation tool. you can get this value from the "view details" in the Workspace of tool web page.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
