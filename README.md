@@ -1,6 +1,6 @@
 # LINE Chatbot based on Watson conversation API
 
-# prerequisite cloud service
+# Prerequisite cloud service
 You should get the accounts from those cloud services.
 
 ## IBM Watson Conversation
@@ -22,6 +22,20 @@ $ npm install fs async line-msg-api watson-developer-cloud
 
 
 # How to configure this code
+
+The configuration files are in the etc folder. you should edit the files following guide.
+
+*line_api_credential.json.sample
+*encript_fullchain.crt.sample
+*encript.ley.sample
+*conversation_credentials.json.sample
+*conversation_workspace_id.json.sample
+
+
+
+
+
+
 
 
 
