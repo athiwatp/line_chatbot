@@ -31,8 +31,10 @@ var users = {};
 
 // Folder for downloaded files
 const DOWNLOAD = "downloads";
+
 // Floder for logfile
 const LOGDIR = "logs";
+
 
 // Geting a message
 bot.on(function (msg) {
