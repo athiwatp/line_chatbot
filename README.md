@@ -25,11 +25,13 @@ $ npm install fs async line-msg-api watson-developer-cloud
 
 The configuration files are in the etc folder. you should edit the files following guide.
 
-*line_api_credential.json.sample
-*encript_fullchain.crt.sample
-*encript.ley.sample
-*conversation_credentials.json.sample
-*conversation_workspace_id.json.sample
+* line_api_credential.json.sample
+* encript_fullchain.crt.sample
+* encript.ley.sample
+* conversation_credentials.json.sample
+* conversation_workspace_id.json.sample
+
+
 
 
 
